@@ -1,14 +1,24 @@
 body{
     margin:0px;
+    margin-top:-2vh;
     padding:0px;
+    width:90vw;
 }
 nav{
     width:100%;
-    height:12%;
+    height:11%;
     /* display:inline-block; */
     position:fixed;
     background-color:rgba(255, 255, 255, 0.904);
+    display:inline-block;
+    margin:0px;
+    box-shadow:0px 2px 12px 0.1px rgb(228, 227, 227);
+    z-index:1;
 }
+.pos-absolute{
+    position:absolute;
+}
+
 /*Horizontal lists*/
 .text-center{
     text-align:center;
@@ -16,6 +26,13 @@ nav{
 .horizontal-list{
     list-style:none;
     margin-left:65vw;
+    margin-top:-6.5vh;
+}
+h2{
+    display:inline-block;
+    margin-left:10px;
+    margin-top: 5vh;
+    font:18px Karla, Arial, sans-serif;
 }
 .horizontal-list li{
     display:inline-block;
@@ -34,37 +51,119 @@ nav{
     height:1.6rem;
     width:4.5rem;
     font:12px Karla, Arial, sans-serif;
-    background:blue;
+    background:#5035ff;
     color:white;
     font-weight:600;
     border-radius:25px;
     border:none;
     cursor:pointer;
 }
+
+/*Heading Section*/
+
+#heading-para{
+    margin:8vh 15vw;
+}
+#heading-para h1{
+    opacity:85%;
+    text-align:right;
+    font:64px Karla, Arial,sans-serif;
+    letter-spacing:0.2rem;
+    line-height:4.0rem;
+}
+#heading-para p{
+    margin-top:-12px;
+    text-align:right;
+    font:26px Karla, Arial,sans-serif;
+    letter-spacing:0.1rem;
+    opacity:90%;
+}
+#img1{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-left:72vw;
+    margin-top:15vh;
+    height:330px;
+}
+#try-it{
+    margin-left:62vw;
+    margin-top:53vh;
+    height:40px;
+    width:140px;
+    border-radius:5px;
+    font-size:14px;
+}
+#img2{
+    margin-left:26vw;
+    height:200px;
+    margin-top:68vh;
+
+}
+#img3{
+    margin-left:14vw;
+    height:150px;
+    margin-top:75vh;
+
+}
+#sub-sec1{
+    margin-left:40vw;
+    margin-top:70vh;
+
+}
+.rect-boundry h2{
+    font:22px Karla, Arial, sans-serif;
+    opacity:85%;
+}
+.rect-boundry p{
+    font:17px Karla, Arial, sens-serif;
+    opacity:90%;
+    margin-top:-1vh;
+}
+#sub-sec2{
+    margin-left:62vw;
+    margin-top:70vh;
+
+}
+#pink-b{
+    margin-top:5vh;
+    margin-left:-1vw;
+}
+#blue-b{
+    margin-top:5vh;
+    margin-left:-1vw;
+}
 /*Different courses*/
+#head-container{
+    margin:0px;
+    height:105vh;
+}
 .container{
-    height:90vh;
-    width:100vw;
-    background-color:cyan;
+    margin-top:-3vh;
+    height:80vh;
+    width:98.6vw;
+    padding-top:10px;
 }
 .course-div-container{
     display:flex;
-    padding:30px 100px;
+    padding:30px 200px;
 }
 .course-div{
-    width:250px;
-    height:270px;
-    border:2px solid black;
-    margin-left:20px;
+    width:220px;
+    height:240px;
+    margin-left:10px;
+    border:0.5px solid rgb(189, 187, 187);
+    box-shadow:0px 1px 4px 0.1px rgb(228, 227, 227);
+    border-radius:5px;
 }
 .heading{
-    font:27px Karla Arial sans-serif;
+    font:27px Karla, Arial, sans-serif;
     text-decoration:underline;
     font-weight:600;
     padding:8px;
 }
 .para{
-    font:21px Karla Arial sans-serif;
+    font:17px Karla,Arial, sans-serif;
+    margin-top:-10px;
 }
 .see-all-button{
     height:2.1rem;
@@ -90,7 +189,45 @@ nav{
     font-family: var(--font-inherit,inherit);
     white-space: nowrap;
     transition: all 0.1s ease-out;
-    background-color: var(--linky);
+    background-color:white;
 }
 
+/*Individual Sections*/
+#most-popular{
+    background:hsl(28deg 52% 95%);
+}
+#bootcamps{
+    background:hsl(54deg 100% 92%);
+}
+#freebies{
+    background:hsl(139deg 24% 89%);
 
+}
+#coding{
+    background:hsl(0deg 0% 100%);
+
+}
+#css{
+    background:hsl(0deg 0% 100%);
+
+}
+#js{
+    background:hsl(139deg 24% 89%);
+
+}
+#react{
+    background:hsl(0deg 0% 100%);
+
+}
+#html{
+    background:hsl(28deg 52% 95%);
+
+}
+#comp{
+    background:hsl(0deg 0% 100%);
+
+}
+#vue{
+    background:hsl(0deg 0% 96%);
+
+}
