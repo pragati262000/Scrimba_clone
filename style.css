@@ -191,7 +191,41 @@ h2{
     transition: all 0.1s ease-out;
     background-color:white;
 }
+.upper-div{
+    height:55%;
+    width:100%;
+}
+.upper-div h4{
+    font:19px Karla,Arial,sans-serif;
+    text-align:right;
+    color:hsl(213deg 31% 37%);
+    margin-left:2.5vw;
+    margin-top:4vh;
+}
+.lower-div{
+    height:45%;
+    width:100%;
+    background-color:white;
+}
+.lower-div .pa{
+    font:11px Karla,Arial,sans-serif;
+    margin-left:0.5%;
+    margin-top:1%;
+    opacity:80%;
 
+}
+.lower-div .pb{
+    font:11px Karla,Arial,sans-serif;
+    margin-left:0.5%;
+    margin-top:6.2%;
+    opacity:80%;
+}
+.lower-div img{
+    border-radius:50%;
+    height:40px;
+    margin-left:12%;
+    margin-top:1%;
+}
 /*Individual Sections*/
 #most-popular{
     background:hsl(28deg 52% 95%);
@@ -230,4 +264,26 @@ h2{
 #vue{
     background:hsl(0deg 0% 96%);
 
+}
+/*Various Courses*/
+.front-dev{
+    background:hsl(54deg 100% 92%);
+}
+.react-bootcamp{
+    background:hsl(137deg 25% 89%);
+}
+.insta-clone{
+    background:hsl(221deg 100% 93%);
+}
+.web-boot{
+    background:hsl(138deg 26% 93%);
+}
+.ui-design{
+    background:hsl(221deg 100% 93%);
+}
+.html-css{
+    background:hsl(25deg 54% 88%);
+}
+.intro-js{
+    background:hsl(252deg 100% 91%);
 }
